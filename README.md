@@ -4,7 +4,7 @@
 Landing page for a conceptual product "Area". Fully responsive, animated, with smooth scroll and interactive element.
 
 **Live Preview:**
-[![Vercel](https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=000000)](area-landing-page-omega.vercel.app)
+[![Vercel](https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=000000)](https://area-landing-page-omega.vercel.app)
 
 **Technologies:**
 ![HTML](https://img.icons8.com/?size=100&id=20909&format=png&color=000000)
