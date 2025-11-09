@@ -1,0 +1,17 @@
+:root {
+    --color-text: #6F6F6F;
+    --color-caption-text: #485C11;
+    --color-border: #E9E9E9;
+    --color-grey: #929292;
+    --color-btn-first: #485C11;
+    --color-btn-second: #8E9C78;
+    --color-btn-third: #DFECC6; 
+    --color-line: rgba(223, 236, 198, 0.5);
+
+    --transition-basic: 0.5s ease;
+    --transition-slower: 0.6s ease;
+
+    --font-size-sm: 0.9rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.4rem;
+}

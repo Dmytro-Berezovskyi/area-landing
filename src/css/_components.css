@@ -1,0 +1,64 @@
+.btn-discover {
+    width: 138px;
+    height: 48px;
+    border: none;
+    border-radius: 1000px;
+    padding: 14px 22px 14px 22px;
+
+    background-color: var(--color-btn-third);;
+    color: black;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background-color var(--transition-basic), color var(--transition-basic);
+}
+.btn-discover:hover {
+    background-color: var(--color-btn-second);
+    color: white;
+}
+.btn-discover:active {
+    background-color: var(--color-btn-third);;
+    color: black;
+}
+
+.learn-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    width: 100%;
+    height: 48px;
+    border-radius: 1000px;
+    border: none;
+    margin-top: 40px;
+
+    background-color: var(--color-btn-first);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background-color var(--transition-basic);
+}
+.learn-btn svg {
+    transition: transform var(--transition-basic);
+}
+.learn-btn:hover {
+    background-color: var(--color-btn-second);
+}
+.learn-btn:hover svg {
+    transform: translateY(-6px) translateX(2px);
+}
+.learn-btn:active {
+    background-color: var(--color-btn-first);
+}
+
+.devider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-line);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
