@@ -11,9 +11,13 @@ Landing page for a conceptual product "Area". Fully responsive, animated, with s
 **Purpose:**
 Show responsive layout, working with animations and interactive components
 
-**Installation:**
-```bash
-git clone <repo>
-cd project-folder
-npm install
-npm start
+**How to Run Locally:**
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Dmytro-Berezovskyi/area-landing.git
+    cd area-landing
+    ```
+2. Open the project in your editor (e.g. VS Code)
+3. Launch the project in a browser:
+    + Option 1: Double-click index.html
+    + Option 2 (recommended): Open with Live Server extension in VS Code
