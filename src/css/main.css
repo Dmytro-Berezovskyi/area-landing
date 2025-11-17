@@ -936,6 +936,14 @@ header > h1 {
         height: 100%;
         
     }
+
+    .btn-discover:active {
+        background-color: var(--color-btn-third);;
+        color: black;
+    }
+    .learn-btn:active {
+        background-color: var(--color-btn-first);
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {

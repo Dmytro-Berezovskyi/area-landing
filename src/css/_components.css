@@ -1,3 +1,16 @@
+@media (hover: hover) and (pointer: fine) {
+    .btn-discover:hover {
+        background-color: var(--color-btn-second);
+        color: white;
+    }
+    .learn-btn:hover {
+        background-color: var(--color-btn-second);
+    }
+    .learn-btn:hover svg {
+        transform: translateY(-6px) translateX(2px);
+    }
+}
+
 .btn-discover {
     width: 138px;
     height: 48px;
@@ -12,13 +25,9 @@
     cursor: pointer;
     transition: background-color var(--transition-basic), color var(--transition-basic);
 }
-.btn-discover:hover {
-    background-color: var(--color-btn-second);
-    color: white;
-}
 .btn-discover:active {
-    background-color: var(--color-btn-third);;
-    color: black;
+    background-color: var(--color-btn-second);;
+    color: white;
 }
 
 .learn-btn {
@@ -45,14 +54,8 @@
 .learn-btn svg {
     transition: transform var(--transition-basic);
 }
-.learn-btn:hover {
-    background-color: var(--color-btn-second);
-}
-.learn-btn:hover svg {
-    transform: translateY(-6px) translateX(2px);
-}
 .learn-btn:active {
-    background-color: var(--color-btn-first);
+    background-color: var(--color-btn-second);
 }
 
 .devider {
