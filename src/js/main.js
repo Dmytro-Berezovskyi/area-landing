@@ -10,8 +10,7 @@ burgerBtn.addEventListener('click', function(event){
     menu.classList.toggle('active');
 })
 menu.addEventListener('click', (event) => {
-    const link = event.target.closest('a');
-    if (link) {
+    if (event) {
         nav.classList.remove('active');
         burgerBtn.classList.remove('active');
         menu.classList.remove('active');
