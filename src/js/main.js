@@ -57,3 +57,10 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 updateClock();
+
+document.querySelectorAll('.learn-btn').forEach(btn => {
+    btn.addEventListener('click', e => e.preventDefault());
+})
+document.querySelectorAll('.btn-discover').forEach(btn => {
+    btn.addEventListener('click', e => e.preventDefault());
+})
